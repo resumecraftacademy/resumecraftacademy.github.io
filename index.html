@@ -177,6 +177,16 @@ body {
   <h2 style="color:#0d3b66; margin-bottom:30px;">Contact Us</h2>
 
   <form action="https://formsubmit.co/resumecraft.careers@gmail.com" method="POST" style="max-width:600px; margin:auto;">
+        <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New ResumeCraft Website Inquiry">
+    <input type="hidden" name="_next" value="https://resumecraftacademy.github.io/thankyou.html">
+
+    <!-- Visible Inputs -->
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
 
     <input type="text" name="name" placeholder="Your Name" required 
     style="width:100%; padding:12px; margin:10px 0; border:1px solid #ccc; border-radius:8px;">
