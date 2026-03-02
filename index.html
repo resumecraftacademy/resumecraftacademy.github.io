@@ -74,25 +74,35 @@ body {
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
   <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="logo.png" alt="Resume Craft Logo">
+
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="logo.png" alt="ResumeCraft Logo" style="height:45px; margin-right:10px;">
+      <span class="brand-text">ResumeCraft</span>
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+
+    <!-- Toggle for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto">
-             <a class="nav-link" href="contact.html">Contact</a>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="#training">QA Training</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item">
-          <a class="btn btn-brand ms-3" href="https://wa.me/917827604439">Contact Now</a>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
+
+      <!-- Right Side Button -->
+      <a href="https://wa.me/917827604439" class="enroll-btn">
+        📞 Enroll Now
+      </a>
     </div>
+
   </div>
 </nav>
 
