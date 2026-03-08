@@ -97,3 +97,11 @@ margin:8px 0;
 .popular{
 border:3px solid #007bff;
 }
+header{
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+background: white;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
