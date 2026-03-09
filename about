@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>About | ResumeCraft Academy</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container py-5">
+
+<h1>About ResumeCraft Academy</h1>
+
+<p>
+ResumeCraft Academy provides professional training in Software Testing,
+Automation Tools, Resume Writing and Interview Preparation.
+Our mission is to help students start successful careers in QA.
+</p>
+
+</div>
+
+</body>
+</html>
