@@ -109,10 +109,14 @@ background: white;
 box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 .hero{
-background:linear-gradient(to right,#0b3d91,#0aa06e);
-color:white;
-padding:160px 20px 120px;
+background:url('banner.jpg') center center no-repeat;
+background-size:cover;
+height:500px;
+display:flex;
+align-items:center;
+justify-content:center;
 text-align:center;
+color:white;
 }
 
 .hero h1{
