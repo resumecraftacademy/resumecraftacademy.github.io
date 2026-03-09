@@ -1,206 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Resume Craft Academy</title>
-    <link rel="icon" type="image/png" href="logo.png">
-    <link rel="stylesheet" href="style.css">
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>ResumeCraft Academy | QA Training & Resume Services</title>
+
+<link rel="icon" type="image/png" href="logo.png">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-    <a href="https://wa.me/917827604439" class="whatsapp-float">
-💬
-</a>
-body {
-    font-family: 'Segoe UI', sans-serif;
+
+body{
+font-family:Arial, sans-serif;
+margin:0;
+padding-top:90px;
 }
 
-.navbar {
-    background-color: #0b3d91;
+/* NAVBAR */
+
+.navbar{
+background:#0b3d91;
 }
 
-.navbar-brand img 
-    {
-    height: 50px;
-    width: auto;
-
+.navbar-brand img{
+height:45px;
+margin-right:8px;
 }
 
-.hero {
-    background: linear-gradient(to right, #0b3d91, #0aa06e);
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
+.nav-link{
+color:white !important;
+font-weight:500;
+margin-left:15px;
 }
 
-.section {
-    padding: 0px 20px;
+.whatsapp-btn{
+background:#25D366;
+color:white;
+padding:8px 18px;
+border-radius:30px;
+font-weight:600;
 }
 
-.section-title {
-    color: #0b3d91;
-    font-weight: bold;
-    margin-bottom: 40px;
+/* HERO SECTION */
+
+.hero{
+background:linear-gradient(135deg,#0b3d91,#0aa06e);
+color:white;
+text-align:center;
+padding:140px 20px;
 }
 
-.service-box {
-    padding: 30px;
-    border-radius: 10px;
-    background: #f8f9fa;
-    transition: 0.3s;
+.hero h1{
+font-size:50px;
+font-weight:700;
 }
 
-.service-box:hover {
-    transform: translateY(-8px);
-    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+.hero p{
+font-size:20px;
+margin-top:10px;
 }
 
-.btn-brand {
-    background-color: #0aa06e;
-    color: white;
-    padding: 12px 30px;
-    border-radius: 30px;
-    font-weight: bold;
+.hero-btn{
+margin-top:25px;
 }
 
-.btn-brand:hover {
-    background-color: #088f60;
-    color: white;
+/* SERVICES */
+
+.section-title{
+text-align:center;
+font-weight:700;
+margin-bottom:40px;
 }
 
-.footer {
-    background: #0b3d91;
-    color: white;
-    padding: 30px;
-    text-align: center;
+.card{
+border:none;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
+
+.card:hover{
+transform:translateY(-5px);
+transition:0.3s;
+}
+
+/* CTA */
+
+.cta{
+background:#0b3d91;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+/* WHATSAPP FLOAT */
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:26px;
+padding:14px 18px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
 </style>
+
 </head>
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
-  <div class="container">
+<!-- NAVBAR -->
 
-    <!-- Logo -->
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="logo.png" alt="ResumeCraft Logo" style="height:45px; margin-right:10px;">
-      <span class="brand-text">ResumeCraft</span>
-    </a>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
-    <!-- Toggle for mobile -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="container">
 
-    <!-- Menu -->
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#training">QA Training</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
+<a class="navbar-brand d-flex align-items-center" href="#">
+<img src="logo.png">
+<span>ResumeCraft</span>
+</a>
 
-      <!-- Right Side Button -->
-    <a href="https://wa.me/917827604439" class="enroll-btn">📞 Enroll on WhatsApp</a>
-    </div>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-  </div>
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Services</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">QA Training</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+</ul>
+
+<a href="https://wa.me/919999999999" class="btn whatsapp-btn ms-3">
+Enroll on WhatsApp
+</a>
+
+</div>
+
+</div>
+
 </nav>
 
-<!-- Hero Section -->
+<!-- HERO -->
+
 <section class="hero">
 
-<div class="container text-center">
+<div class="container">
 
 <h1>Software Testing Training</h1>
 
 <p>Automation Testing | Resume Writing | Interview Preparation</p>
 
-<a href="contact.html" class="btn btn-success btn-lg mt-3">
+<div class="hero-btn">
+
+<a href="#" class="btn btn-success btn-lg me-3">
 Book Free Demo
+</a>
+
+<a href="https://wa.me/919999999999" class="btn btn-light btn-lg">
+Chat on WhatsApp
 </a>
 
 </div>
 
-</section>
-
-<!-- Services -->
-<section id="services" class="section">
-  <div class="container text-center">
-    <h2 class="section-title">Resume Services</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="service-box">
-          <h5>IT & QA Resume Writing</h5>
-          <p>Professionally crafted resumes tailored to industry standards.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-box">
-          <h5>LinkedIn Optimization</h5>
-          <p>Build strong online presence to attract recruiters.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-box">
-          <h5>Interview Preparation</h5>
-          <p>Guidance to confidently crack technical and HR interviews.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- QA Training -->
-<section id="training" class="section bg-light">
-  <div class="container text-center">
-    <h2 class="section-title">QA & Automation Training</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="service-box">
-          <h5>Manual Testing</h5>
-          <p>Complete QA fundamentals with real-time project scenarios.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-box">
-          <h5>Selenium with Java</h5>
-          <p>Automation framework design & real-world implementation.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-box">
-          <h5>API Testing</h5>
-          <p>Hands-on training with Postman & real-time validation.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-   
-
-<!-- About -->
-<section id="about" class="section">
-  <div class="container text-center">
-    <h2 class="section-title">About Resume Craft Academy</h2>
-    <p>Founded by Ajit Kumar, a QA Professional with 9+ years of experience in Manual & Automation Testing.</p>
-    <p>Our mission is to help IT professionals build strong resumes and secure better career opportunities.</p>
-  </div>
-
-<!-- Footer -->
-<div class="footer">
-  © 2026 Resume Craft Academy | All Rights Reserved
 </div>
 
-
-  </form>
 </section>
+
+<!-- SERVICES -->
+
+<section class="container py-5">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card p-4 text-center">
+
+<h4>Manual & Automation Testing</h4>
+
+<p>Learn QA testing from industry experts with real project experience.</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card p-4 text-center">
+
+<h4>Professional Resume Writing</h4>
+
+<p>ATS optimized resumes that help you get interviews faster.</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card p-4 text-center">
+
+<h4>Interview Preparation</h4>
+
+<p>Mock interviews and guidance to crack QA job interviews.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<h2>Start Your QA Career Today</h2>
+
+<p>Join ResumeCraft Academy and become a Software Tester</p>
+
+<a href="https://wa.me/919999999999" class="btn btn-success btn-lg mt-3">
+Join on WhatsApp
+</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 ResumeCraft Academy | QA Training & Resume Services</p>
+
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+
+<a href="https://wa.me/919999999999" class="whatsapp-float">
+
+💬
+
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
