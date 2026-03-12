@@ -320,34 +320,25 @@ Join on WhatsApp
 
 <div class="modal-body">
 
-<form>
+<form action="https://formsubmit.co/resumecraft.careers@gmail.com" method="POST">
 
-<div class="mb-3">
-<label class="form-label">Full Name</label>
-<input type="text" class="form-control" required>
-</div>
+<input type="text" name="name" class="form-control mb-3" placeholder="Full Name" required>
 
-<div class="mb-3">
-<label class="form-label">Mobile Number</label>
-<input type="tel" class="form-control" required>
-</div>
+<input type="tel" name="phone" class="form-control mb-3" placeholder="Mobile Number" required>
 
-<div class="mb-3">
-<label class="form-label">Email</label>
-<input type="email" class="form-control" required>
-</div>
+<input type="email" name="email" class="form-control mb-3" placeholder="Email Address" required>
 
-<div class="mb-3">
-<label class="form-label">Course Interested</label>
-<select class="form-control">
+<select name="course" class="form-control mb-3">
 <option>Manual Testing</option>
 <option>Automation Testing</option>
 <option>Playwright Automation</option>
 <option>Resume Writing Service</option>
 </select>
-</div>
 
-<button class="btn btn-success w-100">
+<input type="hidden" name="_subject" value="New Free Demo Booking">
+<input type="hidden" name="_captcha" value="false">
+
+<button type="submit" class="btn btn-success w-100">
 Submit Request
 </button>
 
