@@ -148,3 +148,41 @@ transition: 0.3s;
 background:#f1f1f1;
 transform: scale(1.05);
 }
+.hero-buttons{
+margin-top:30px;
+}
+
+.demo-btn{
+background:#ffffff;
+color:#0f6c6c;
+padding:12px 26px;
+font-size:16px;
+font-weight:600;
+border-radius:30px;
+text-decoration:none;
+margin-right:15px;
+transition:0.3s;
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.demo-btn:hover{
+background:#f1f1f1;
+transform:translateY(-2px);
+}
+
+.whatsapp-btn{
+background:#25D366;
+color:#fff;
+padding:12px 26px;
+font-size:16px;
+font-weight:600;
+border-radius:30px;
+text-decoration:none;
+transition:0.3s;
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.whatsapp-btn:hover{
+background:#1ebe5d;
+transform:translateY(-2px);
+}
